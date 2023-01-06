@@ -1,5 +1,6 @@
 # Laravel Tiket App
 ![ss1](/ss/1.png)
+![ss2](/ss/2.png)
 
 ## About
 
