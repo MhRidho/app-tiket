@@ -13,10 +13,13 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/beranda',[BerandaController::class,'beranda'])->name('beranda');
+Route::get('/beranda', [BerandaController::class, 'beranda'])->name('beranda');
 
-Route::get('/pesan-tiket',[BerandaController::class,'pesanTiket'])->name('pesan-tiket');
+Route::get('/pesan-tiket', [BerandaController::class, 'pesanTiket'])->name('pesan-tiket');
+
+Route::get('/login', [BerandaController::class, 'login'])->name('login');

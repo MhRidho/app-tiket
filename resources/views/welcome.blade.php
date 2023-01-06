@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-    <title>Taman Padang</title>
+    <title>Konser Padang</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Taman Padang</a>
+        <a class="navbar-brand" href="#">Konser Padang</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,6 +30,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('pesan-tiket') }}">Pesan Tiket</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('login') }}">Login</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -39,8 +42,8 @@
     <footer class="text-center text-lg-start bg-dark text-white">
         <!-- Copyright -->
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-            © 2021 Copyright:
-            <a class="text-reset fw-bold" href="">Pantai Padang</a>
+            © 2022 Copyright:
+            <a class="text-reset fw-bold" href="">Konser Padang</a>
         </div>
         <!-- Copyright -->
     </footer>
